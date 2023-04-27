@@ -1,0 +1,30 @@
+html {
+    font-family: 'Unkempt', cursive;
+    background-color: #aa0aaa;
+}
+
+body {
+    width: 400px;
+    background-color: #ffffaa;
+    margin: 5% auto;
+    padding: 10px 50px;
+    /*margin&padding: up, right, (down, left)*/
+    border: 5px solid green;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0 0 0;
+    text-align: center;
+    text-shadow: 3px 3px 1px #aa0aaa;
+    /*horizontal offset, vertical offset, blur radius, color*/
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
