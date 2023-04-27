@@ -13,9 +13,9 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/meme.jpg') {
+    if(mySrc === 'images/meme.JPG') {
       myImage.setAttribute ('src','images/meme_c.jpeg');
     } else {
-      myImage.setAttribute ('src','images/meme.jpg');
+      myImage.setAttribute ('src','images/meme.JPG');
     }
 }
